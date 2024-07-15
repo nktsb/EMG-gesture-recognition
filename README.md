@@ -202,4 +202,4 @@ The list of tasks configured in VSCode:
 
 ## STM32 Firmware
 
-The project includes a submodule for the STM32 Firmware source, which handles sensor data acquisition and transmission. You can find the repo [here](https://github.com/nktsb/EMG-sensors-stm32).
+The project includes a submodule for the STM32 Firmware source, which handles sensor data acquisition and transmission. You can find the repo [here](https://github.com/nktsb/STM32-EMG-sensors).
