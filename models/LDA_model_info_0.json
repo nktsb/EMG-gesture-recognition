@@ -1,0 +1,653 @@
+{
+    "general_info": {
+        "file": "models/LDA_model_info_0.json", 
+        "create_time": "2024-07-15 18:22:56:019", 
+        "last_change_time": "2024-07-15 18:22:56:019", 
+        "user_name": "Check original", 
+        "gesture_name": "Check original"
+    }, 
+    "model_info": {
+        "original_file": "features/estimated_features_0.json", 
+        "features_map": [
+            {
+                "channel": "GYRX", 
+                "feature": "KURT"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "VAR"
+            }, 
+            {
+                "channel": "ACCZ", 
+                "feature": "VAR"
+            }, 
+            {
+                "channel": "ACCZ", 
+                "feature": "PERC"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "WL"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "MAD"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "TTP"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "RMS"
+            }, 
+            {
+                "channel": "ACCZ", 
+                "feature": "PSR"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "KURT"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "VAR"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "FR"
+            }, 
+            {
+                "channel": "ACCX", 
+                "feature": "KURT"
+            }, 
+            {
+                "channel": "ACCZ", 
+                "feature": "FR"
+            }, 
+            {
+                "channel": "ACCX", 
+                "feature": "VAR"
+            }, 
+            {
+                "channel": "ACCX", 
+                "feature": "MAD"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "WL"
+            }, 
+            {
+                "channel": "ACCY", 
+                "feature": "VAR"
+            }, 
+            {
+                "channel": "EMG0", 
+                "feature": "TTP"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "PSR"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "PERC"
+            }, 
+            {
+                "channel": "ACCY", 
+                "feature": "KURT"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "MAD"
+            }, 
+            {
+                "channel": "ACCY", 
+                "feature": "FR"
+            }, 
+            {
+                "channel": "ACCZ", 
+                "feature": "MNF"
+            }, 
+            {
+                "channel": "ACCY", 
+                "feature": "TTP"
+            }, 
+            {
+                "channel": "ACCX", 
+                "feature": "PERC"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "MNP"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "TTP"
+            }, 
+            {
+                "channel": "ACCZ", 
+                "feature": "SE"
+            }, 
+            {
+                "channel": "EMG1", 
+                "feature": "PSR"
+            }, 
+            {
+                "channel": "EMG0", 
+                "feature": "KURT"
+            }, 
+            {
+                "channel": "EMG0", 
+                "feature": "MNF"
+            }, 
+            {
+                "channel": "ACCZ", 
+                "feature": "IAV"
+            }, 
+            {
+                "channel": "EMG1", 
+                "feature": "TTP"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "KURT"
+            }, 
+            {
+                "channel": "ACCY", 
+                "feature": "PSR"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "MNF"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "IAV"
+            }, 
+            {
+                "channel": "EMG1", 
+                "feature": "MDF"
+            }, 
+            {
+                "channel": "EMG1", 
+                "feature": "SE"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "PERC"
+            }, 
+            {
+                "channel": "ACCY", 
+                "feature": "SE"
+            }, 
+            {
+                "channel": "ACCY", 
+                "feature": "MAD"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "PSR"
+            }, 
+            {
+                "channel": "EMG0", 
+                "feature": "MAD"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "SE"
+            }, 
+            {
+                "channel": "ACCY", 
+                "feature": "WL"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "PERC"
+            }, 
+            {
+                "channel": "ACCX", 
+                "feature": "NP"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "VAR"
+            }, 
+            {
+                "channel": "EMG1", 
+                "feature": "MAD"
+            }, 
+            {
+                "channel": "ACCZ", 
+                "feature": "TTP"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "MNF"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "WL"
+            }, 
+            {
+                "channel": "ACCX", 
+                "feature": "WL"
+            }, 
+            {
+                "channel": "ACCX", 
+                "feature": "IAV"
+            }, 
+            {
+                "channel": "EMG0", 
+                "feature": "SE"
+            }, 
+            {
+                "channel": "ACCZ", 
+                "feature": "WL"
+            }, 
+            {
+                "channel": "ACCX", 
+                "feature": "TTP"
+            }, 
+            {
+                "channel": "ACCY", 
+                "feature": "NP"
+            }, 
+            {
+                "channel": "EMG0", 
+                "feature": "PSR"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "PSR"
+            }, 
+            {
+                "channel": "ACCX", 
+                "feature": "SE"
+            }, 
+            {
+                "channel": "EMG1", 
+                "feature": "FR"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "MAV"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "IAV"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "NP"
+            }, 
+            {
+                "channel": "ACCX", 
+                "feature": "MNF"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "SE"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "NP"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "FR"
+            }, 
+            {
+                "channel": "EMG1", 
+                "feature": "KURT"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "TTP"
+            }, 
+            {
+                "channel": "ACCZ", 
+                "feature": "ZC"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "FR"
+            }, 
+            {
+                "channel": "EMG0", 
+                "feature": "FR"
+            }, 
+            {
+                "channel": "ACCX", 
+                "feature": "PSR"
+            }, 
+            {
+                "channel": "EMG1", 
+                "feature": "ZC"
+            }, 
+            {
+                "channel": "EMG1", 
+                "feature": "PERC"
+            }, 
+            {
+                "channel": "EMG0", 
+                "feature": "SSC"
+            }, 
+            {
+                "channel": "ACCX", 
+                "feature": "SSC"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "MNF"
+            }, 
+            {
+                "channel": "EMG0", 
+                "feature": "MDF"
+            }, 
+            {
+                "channel": "ACCY", 
+                "feature": "IAV"
+            }, 
+            {
+                "channel": "ACCY", 
+                "feature": "ZC"
+            }, 
+            {
+                "channel": "ACCY", 
+                "feature": "SSC"
+            }, 
+            {
+                "channel": "EMG0", 
+                "feature": "WL"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "IAV"
+            }, 
+            {
+                "channel": "EMG0", 
+                "feature": "PERC"
+            }, 
+            {
+                "channel": "EMG0", 
+                "feature": "ZC"
+            }, 
+            {
+                "channel": "ACCY", 
+                "feature": "PERC"
+            }, 
+            {
+                "channel": "EMG2", 
+                "feature": "MDF"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "RMS"
+            }, 
+            {
+                "channel": "EMG2", 
+                "feature": "PSR"
+            }, 
+            {
+                "channel": "ACCX", 
+                "feature": "FR"
+            }, 
+            {
+                "channel": "ACCZ", 
+                "feature": "SSC"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "NP"
+            }, 
+            {
+                "channel": "ACCY", 
+                "feature": "PKF"
+            }, 
+            {
+                "channel": "ACCZ", 
+                "feature": "NP"
+            }, 
+            {
+                "channel": "ACCY", 
+                "feature": "MDF"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "ZC"
+            }, 
+            {
+                "channel": "ACCX", 
+                "feature": "ZC"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "SE"
+            }, 
+            {
+                "channel": "EMG2", 
+                "feature": "FR"
+            }, 
+            {
+                "channel": "ACCX", 
+                "feature": "MDF"
+            }, 
+            {
+                "channel": "EMG2", 
+                "feature": "ZC"
+            }, 
+            {
+                "channel": "EMG2", 
+                "feature": "TTP"
+            }, 
+            {
+                "channel": "EMG2", 
+                "feature": "PKF"
+            }, 
+            {
+                "channel": "EMG2", 
+                "feature": "MAD"
+            }, 
+            {
+                "channel": "EMG2", 
+                "feature": "SE"
+            }, 
+            {
+                "channel": "EMG3", 
+                "feature": "MAD"
+            }, 
+            {
+                "channel": "EMG3", 
+                "feature": "PERC"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "MDF"
+            }, 
+            {
+                "channel": "EMG3", 
+                "feature": "MDF"
+            }, 
+            {
+                "channel": "EMG1", 
+                "feature": "VAR"
+            }, 
+            {
+                "channel": "EMG3", 
+                "feature": "TTP"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "SSC"
+            }, 
+            {
+                "channel": "EMG1", 
+                "feature": "SSC"
+            }, 
+            {
+                "channel": "ACCX", 
+                "feature": "PKF"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "SSC"
+            }, 
+            {
+                "channel": "EMG2", 
+                "feature": "PERC"
+            }, 
+            {
+                "channel": "EMG3", 
+                "feature": "PSR"
+            }, 
+            {
+                "channel": "EMG3", 
+                "feature": "FR"
+            }, 
+            {
+                "channel": "EMG2", 
+                "feature": "KURT"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "SSC"
+            }, 
+            {
+                "channel": "EMG3", 
+                "feature": "SE"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "MDF"
+            }, 
+            {
+                "channel": "EMG3", 
+                "feature": "WL"
+            }, 
+            {
+                "channel": "EMG3", 
+                "feature": "KURT"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "ZC"
+            }, 
+            {
+                "channel": "EMG1", 
+                "feature": "WL"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "PKF"
+            }, 
+            {
+                "channel": "EMG3", 
+                "feature": "PKF"
+            }, 
+            {
+                "channel": "EMG2", 
+                "feature": "VAR"
+            }, 
+            {
+                "channel": "EMG1", 
+                "feature": "RMS"
+            }, 
+            {
+                "channel": "EMG1", 
+                "feature": "PKF"
+            }, 
+            {
+                "channel": "EMG0", 
+                "feature": "PKF"
+            }, 
+            {
+                "channel": "EMG3", 
+                "feature": "ZC"
+            }, 
+            {
+                "channel": "EMG2", 
+                "feature": "SSC"
+            }, 
+            {
+                "channel": "EMG3", 
+                "feature": "VAR"
+            }, 
+            {
+                "channel": "GYRZ", 
+                "feature": "PKF"
+            }, 
+            {
+                "channel": "EMG3", 
+                "feature": "SSC"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "MDF"
+            }, 
+            {
+                "channel": "EMG2", 
+                "feature": "WL"
+            }, 
+            {
+                "channel": "ACCZ", 
+                "feature": "MDF"
+            }, 
+            {
+                "channel": "EMG2", 
+                "feature": "RMS"
+            }, 
+            {
+                "channel": "EMG3", 
+                "feature": "RMS"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "PKF"
+            }, 
+            {
+                "channel": "EMG2", 
+                "feature": "NP"
+            }, 
+            {
+                "channel": "GYRY", 
+                "feature": "ZC"
+            }, 
+            {
+                "channel": "EMG3", 
+                "feature": "NP"
+            }, 
+            {
+                "channel": "ACCZ", 
+                "feature": "PKF"
+            }, 
+            {
+                "channel": "EMG0", 
+                "feature": "NP"
+            }, 
+            {
+                "channel": "EMG1", 
+                "feature": "NP"
+            }, 
+            {
+                "channel": "EMG0", 
+                "feature": "IAV"
+            }, 
+            {
+                "channel": "EMG2", 
+                "feature": "IAV"
+            }, 
+            {
+                "channel": "GYRX", 
+                "feature": "WA"
+            }, 
+            {
+                "channel": "ACCZ", 
+                "feature": "WA"
+            }
+        ], 
+        "model_name": "LDA", 
+        "model_file": "models/LDA_model_0.pkl", 
+        "model_score": 0.918918918918919
+    }
+}

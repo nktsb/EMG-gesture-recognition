@@ -1,0 +1,74 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "GIT_submodules",
+            "type": "shell",
+            "command": "git",
+            "args": [
+                "submodule",
+                "update",
+                "--init",
+                "--recursive"
+            ],
+            "runOptions": {
+                "runOn": "folderOpen",
+            },
+        },
+        {
+            "label": "💀 run EMG",
+            "group": "build",
+            "type": "shell",
+            "command": "bash",
+            "args": [   
+                        "main.sh",
+                        "run_emg.py",
+                        "./emg_parameters.json"
+                    ]
+        },
+        {
+            "label": "📝 write dataset",
+            "group": "build",
+            "type": "shell",
+            "command": "bash",
+            "args": [   
+                        "main.sh",
+                        "write_dataset.py",
+                        "./emg_parameters.json"
+                    ]
+        },
+        {
+            "label": "📈 show dataset",
+            "group": "build",
+            "type": "shell",
+            "command": "bash",
+            "args": [   
+                        "main.sh",
+                        "show_dataset.py",
+                        "./emg_parameters.json"
+                    ]
+        },
+        {
+            "label": "🏋️‍♀️ train model",
+            "group": "build",
+            "type": "shell",
+            "command": "bash",
+            "args": [   
+                        "main.sh",
+                        "train_model.py",
+                        "./emg_parameters.json"
+                    ]
+        },
+        {
+            "label": "🕓 estimate time",
+            "group": "build",
+            "type": "shell",
+            "command": "bash",
+            "args": [   
+                        "main.sh",
+                        "time_test.py",
+                        "./emg_parameters.json"
+                    ]
+        }
+    ]
+}

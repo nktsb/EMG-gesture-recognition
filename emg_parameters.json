@@ -1,0 +1,146 @@
+{
+    "project_info": {
+        "dataset_folder": "dataset",
+        "features_folder": "features",
+        "models_folder": "models"
+    },
+
+    "device_info": {
+        "dev_baudrate": 2000000,
+        "dev_ping_ans": "EMG sensors here\r\n",
+        "sample_rate": 1000,
+        "sample_size": 2000,
+        
+        "dev_emg_preamble": "EMG",
+        "dev_accel_preamble": "ACC",
+        "dev_gyro_preamble": "GYR",
+
+        "emg_channels_num": 4,
+        "accel_axes": ["X", "Y", "Z"],
+        "gyro_axes": ["X", "Y", "Z"],
+        "emg_min_max": [1500, 2300],
+        "accel_min_max": [-4000, 4000],
+        "gyro_min_max": [-2000, 2000]
+    },
+
+    "training_info": {
+
+        "normalize_method": "MAX_MIN",
+
+        "emg_preprocessor_info":
+        {
+            "min": 1500,
+            "max": 2500,
+            "filter_method": "BAND_PASS",
+            "offset": -2000,
+            "window_size": 25,
+            "low_cutoff_freq": 20,
+            "high_cutoff_freq": 499,
+            "order": 3
+        },
+        "accel_preprocessor_info":
+        {
+            "min": -4000,
+            "max": 4000,
+            "filter_method": "LOW_PASS",
+            "offset": 4000,
+            "window_size": 25,
+            "low_cutoff_freq": 25,
+            "high_cutoff_freq": 200,
+            "order": 3
+        },
+        "gyro_preprocessor_info":
+        {
+            "min": -2000,
+            "max": 2000,
+            "filter_method": "LOW_PASS",
+            "offset": 2000,
+            "window_size": 25,
+            "low_cutoff_freq": 25,
+            "high_cutoff_freq": 200,
+            "order": 3
+        },
+
+        "emg_features_info": {
+            "threshold": 0.5,
+            "ssc_lvl": 0.00000001,
+            "percentile": 25,
+            "fr_low_range": [20,50],
+            "fr_high_range": [50,500],
+            "psr_range": [20, 100]
+        },
+        "accel_features_info": {
+            "threshold": 0.5,
+            "ssc_lvl": 0.0000001,
+            "percentile": 25,
+            "fr_low_range": [0,50],
+            "fr_high_range": [50,100],
+            "psr_range": [20, 100]
+        },
+        "gyro_features_info": {
+            "threshold": 0.5,
+            "ssc_lvl": 0.0000001,
+            "percentile": 25,
+            "fr_low_range": [0,50],
+            "fr_high_range": [50,100],
+            "psr_range": [20, 100]
+        },
+
+        "ml_info": {
+            "users": [
+                "nktsb2",
+                "nktsb3",
+                "nktsb4"
+            ],
+            "features_estimation_method": "MI+Correlation",
+            "knn_features_num": 150,
+            "svm_features_num": 150,
+            "lda_importance_threshold": 0.01,
+            "dt_importance_threshold": 0.01,
+            "gb_importance_threshold": 0.01,
+            "rf_importance_threshold": 0.01
+        }
+    },
+
+    "online_rec_model_file": "LDA_model_info_0.json",
+
+    "gestures_list": [
+        "Отсутствие_жеста",
+        "А",
+        "Б",
+        "В",
+        "Г",
+        "Д",
+        "Е",
+        "Ë",
+        "Ж",
+        "З",
+        "И",
+        "Й",
+        "К",
+        "Л",
+        "М",
+        "Н",
+        "О",
+        "П",
+        "Р",
+        "С",
+        "Т",
+        "У",
+        "Ф",
+        "Х",
+        "Ц",
+        "Ч",
+        "Ш",
+        "Щ",
+        "Ъ",
+        "Ы",
+        "Ь",
+        "Э",
+        "Ю",
+        "Я",
+        "Привет",
+        "Спасибо",
+        "До_свидания"
+    ]
+}
