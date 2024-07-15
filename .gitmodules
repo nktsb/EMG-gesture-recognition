@@ -1,4 +1,4 @@
 [submodule "STM32-EMG-sensors"]
 	path = STM32-EMG-sensors
-	url = git@github.com:nktsb/STM32-EMG-sensors.git
+	url = https://github.com/nktsb/STM32-EMG-sensors
 	branch = develop
