@@ -37,7 +37,7 @@ The system is divided into three main modules:
 
 ### Sensors Module
 
-- **STM32F103RB Board**: *([FW source repo](https://github.com/nktsb/EMG-sensors-stm32))*
+- **STM32F103RB Board**: *([FW source repo](https://github.com/nktsb/STM32-EMG-sensors))*
 - **Grove-EMG Sensors**: *4 pcs.*
 - **MPU6050 Sensor**: *Accelerometer + Gyroscope.*
 
